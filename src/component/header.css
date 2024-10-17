@@ -1,0 +1,18 @@
+.group:hover .inner-text {
+  width: auto;
+  visibility: visible;
+  opacity: 1;
+}
+
+.group {
+  width: 40px; /* Default width */
+  background: #1a1a1a;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.group:hover {
+  background: #ffb400;
+  width: 150px; /* Only expand the hovered item */
+}

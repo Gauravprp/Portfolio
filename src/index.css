@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-bg {
+  background-image: linear-gradient(80deg, #ffb400 15%, #000 15%);
+}
+@media (max-width: 900px) {
+  .hero-bg {
+    background-image: none;
+    background-color: #000;
+  }
+}
+::selection {
+  background-color: #ffb400;
+  color: #fff;
+}
+.shadow {
+  box-shadow: 0 0 10px 1px #000;
+}
