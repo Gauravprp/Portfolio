@@ -101,7 +101,7 @@ export default function Header() {
       {/* mobile */}
 
       <nav className="fixed  bottom-0 transform  min-[600px]:hidden max-[600px]:w-[100%]  bg-[#1a1a1a] z-[999]  py-[8px]">
-        <ul className="flex items-end flex-col gap-[10px] max-[600px]:flex-row max-[600px]:justify-around">
+        <ul className="flex items-end flex-col gap-[10px] max-[600px]:flex-row max-[600px]:justify-around bg-[#1a1a1a]">
           <Link to="/">
             <li className="group w-[40px] rounded-[50px] transition-all duration-300 cursor-pointer">
               <div className="flex items-center space-x-2 p-2 text-white rounded-full ">
