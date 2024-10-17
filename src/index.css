@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #000;
 }
 .hero-bg {
   background-image: linear-gradient(80deg, #ffb400 15%, #000 15%);
