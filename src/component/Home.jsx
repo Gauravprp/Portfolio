@@ -30,7 +30,7 @@ const Home = () => {
                 those around me.
               </p>
               <button>
-                <a
+                <Link
                   href="/about"
                   class="group relative inline-block px-8 py-4 bg-black border-2 border-[#ffb400] text-[#ffb400] font-bold rounded-full overflow-hidden transition-all duration-300 ease-in-out"
                 >
@@ -52,7 +52,7 @@ const Home = () => {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </button>
             </div>
           </div>
