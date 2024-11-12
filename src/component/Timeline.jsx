@@ -6,7 +6,7 @@ const Timeline = () => {
       period: "2023 - PRESENT",
       title: "WEB DEVELOPER — PRP WEBS",
       description:
-        "Developing responsive web applications and managing backend integrations to enhance user experiences.",
+        "Developed and launched over 15 WordPress websites, optimizing performance and functionality to meet client specifications.",
     },
     {
       period: "2022 - 2023",
