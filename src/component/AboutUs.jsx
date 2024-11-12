@@ -58,7 +58,7 @@ function About() {
             <button className="mt-[40px]">
               <a
                 href="/public/gauravcv.pdf" // Update this path
-                download="gauravcv.pdf" // This will set the downloaded file's name
+                download="" // This will set the downloaded file's name
                 className="group relative inline-block px-8 py-4 bg-black border-2 border-[#ffb400] text-[#ffb400] font-bold rounded-full overflow-hidden transition-all duration-300 ease-in-out"
               >
                 <span className="absolute inset-0 w-full h-full bg-[#ffb400] transform translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></span>
