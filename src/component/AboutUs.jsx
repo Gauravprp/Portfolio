@@ -7,7 +7,7 @@ export default function About() {
     <>
       <section className="bg-[#000] text-white pt-16">
         <div className="container mx-auto max-w-[1200px] max-[1200px]:max-w-[90%] flex flex-wrap justify-between items-center">
-          {/* Personal Infos Section */}
+          {/ Personal Infos Section /}
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
             <h2 className="text-[55px] max-[900px]:text-[36px] font-bold mb-6">
               Personal Infos
@@ -37,7 +37,7 @@ export default function About() {
               <li>
                 <span className="text-[#c2c2c2] font-[600]">Email:</span>{" "}
                 <span className="text-[#ffffff] font-[600]">
-                  gaurav@prpwebs.in
+                  mailto:gaurav89824@gmail.com
                 </span>
               </li>
 
@@ -58,23 +58,24 @@ export default function About() {
             </ul>
             <button className="mt-[40px]">
               <a
-                href="#about"
-                class="group relative inline-block px-8 py-4 bg-black border-2 border-[#ffb400] text-[#ffb400] font-bold rounded-full overflow-hidden transition-all duration-300 ease-in-out"
+                href="/public/gauravcv.pdf" // Update this path
+                download="gauravcv.pdf" // This will set the downloaded file's name
+                className="group relative inline-block px-8 py-4 bg-black border-2 border-[#ffb400] text-[#ffb400] font-bold rounded-full overflow-hidden transition-all duration-300 ease-in-out"
               >
-                <span class="absolute inset-0 w-full h-full bg-[#ffb400] transform translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></span>
-                <span class="relative z-10 flex items-center gap-2 group-hover:text-white transition-colors duration-300 ease-in-out">
+                <span className="absolute inset-0 w-full h-full bg-[#ffb400] transform translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></span>
+                <span className="relative z-10 flex items-center gap-2 group-hover:text-white transition-colors duration-300 ease-in-out">
                   Download CV
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 group-hover:text-white transition-colors duration-300 ease-in-out"
+                    className="h-5 w-5 group-hover:text-white transition-colors duration-300 ease-in-out"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M14 5l7 7m0 0l-7 7m7-7H3"
                     />
                   </svg>
@@ -83,7 +84,7 @@ export default function About() {
             </button>
           </div>
 
-          {/* Stats Section */}
+          {/ Stats Section /}
           <div className="w-full md:w-1/2 grid grid-cols-2 gap-8 text-center">
             <div className="bg-[#1a1a1a] p-8 rounded-lg shadow-md  hover:bg-gray-800  transition duration-300">
               <h3 className="text-4xl font-bold text-yellow-500">2+</h3>
