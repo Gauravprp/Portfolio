@@ -9,7 +9,7 @@ function About() {
         <div className="container mx-auto max-w-[1200px] max-[1200px]:max-w-[90%] flex flex-wrap justify-between items-center">
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
             <h2 className="text-[55px] max-[900px]:text-[36px] font-bold mb-6">
-              Personal Infos
+              Personal Info.
             </h2>
             <ul className="text-lg space-y-2">
               <li>
