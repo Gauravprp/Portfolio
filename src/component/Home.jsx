@@ -31,7 +31,7 @@ const Home = () => {
               </p>
               <button>
                 <Link
-                  href="/about"
+                  to="/about"
                   class="group relative inline-block px-8 py-4 bg-black border-2 border-[#ffb400] text-[#ffb400] font-bold rounded-full overflow-hidden transition-all duration-300 ease-in-out"
                 >
                   <span class="absolute inset-0 w-full h-full bg-[#ffb400] transform translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></span>

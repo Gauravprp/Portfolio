@@ -55,19 +55,17 @@ const MyProjects = () => {
     {
       name: "Platform studio",
       image: "./platform.png",
-      link: "https://www.theplatformstudios.com/",  
-    }
+      link: "https://www.theplatformstudios.com/",
+    },
   ];
 
   return (
     <div className="bg-[#000] text-white py-[85px]">
       <div className="max-w-[1200px] max-[1200px]:max-w-[90%] mx-auto">
-        {/ Heading Section /}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-yellow-400">My Projects</h1>
         </div>
 
-        {/ Project Grid /}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer">
           {projects.map((project, index) => (
             <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -75,19 +73,16 @@ const MyProjects = () => {
                 key={index}
                 className="group relative bg-[#1a1a1a] p-4 rounded-lg transition-transform transform hover:scale-105 duration-300"
               >
-                {/ Image /}
                 <img
                   src={project.image}
                   alt={project.name}
                   className="w-full h-[200px] object-cover rounded-md mb-4"
                 />
 
-                {/ Project Name /}
                 <h3 className="text-xl font-semibold text-yellow-400 mb-2 text-center">
                   {project.name}
                 </h3>
 
-                {/ Creative animations /}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 rounded-lg" />
               </div>
             </a>

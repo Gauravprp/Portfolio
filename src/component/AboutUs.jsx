@@ -2,12 +2,11 @@ import React from "react";
 import SkillsSection from "./Skills";
 import Timeline from "./Timeline";
 
-export default function About() {
+function About() {
   return (
     <>
       <section className="bg-[#000] text-white pt-16">
         <div className="container mx-auto max-w-[1200px] max-[1200px]:max-w-[90%] flex flex-wrap justify-between items-center">
-          {/ Personal Infos Section /}
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
             <h2 className="text-[55px] max-[900px]:text-[36px] font-bold mb-6">
               Personal Infos
@@ -84,7 +83,6 @@ export default function About() {
             </button>
           </div>
 
-          {/ Stats Section /}
           <div className="w-full md:w-1/2 grid grid-cols-2 gap-8 text-center">
             <div className="bg-[#1a1a1a] p-8 rounded-lg shadow-md  hover:bg-gray-800  transition duration-300">
               <h3 className="text-4xl font-bold text-yellow-500">2+</h3>
@@ -110,3 +108,5 @@ export default function About() {
     </>
   );
 }
+
+export default About;
